@@ -1,0 +1,33 @@
+//   NAME                            RESULT                         TRIGGER
+COMB(combo_semi_colon,               KC_SCLN,                       KEY_T3,                    KEY_B4)
+COMB(combo_colon,                    KC_COLN,                       KEY_T2,                    KEY_B4)
+COMB(combo_space,                    KC_SPACE,                      KEY_T1,                    KEY_T3)
+COMB(combo_question_mark,            KC_QUES,                       KEY_T1,      KEY_T3,       KEY_B4)
+COMB(combo_double_quote,             S(KC_2),                       KEY_T1,      KEY_B3,       KEY_B4)
+// TODO Y may need to override in an ansi remix
+COMB(combo_y,                        KC_Y,                          KEY_B3,                    KEY_B4)
+
+
+// Symbol Combos
+COMB(combo_ampersand,                KC_AMPR,                       KSYM_T1,                   KSYM_T2)
+COMB(combo_asterisk,                 KC_ASTR,                       KSYM_T2,                   KSYM_T3)
+COMB(combo_minus,                    KC_MINS,                       KSYM_B1,                   KSYM_B2)
+COMB(combo_underscore,               KC_UNDS,                       KSYM_B2,                   KSYM_B3)
+COMB(combo_equals,                   KC_EQL,                        KSYM_T1,      KSYM_T2,     KSYM_T3)
+COMB(combo_plus,                     KC_PLUS,                       KSYM_B1,      KSYM_B2,     KSYM_B3)
+
+// Custom Combos
+COMB(combo_next_track,               KC_MNXT,                       KCUS_T2,                   KCUS_T3)
+COMB(combo_previous_track,           KC_MPRV,                       KCUS_T3,                   KCUS_T4)
+COMB(combo_volume_up,                KC_VOLU,                       KCUS_B2,                   KCUS_B3)
+COMB(combo_volume_down,              KC_VOLD,                       KCUS_B3,                   KCUS_B4)
+COMB(combo_play,                     KC_MPLY,                       KCUS_T2,      KCUS_T3,     KCUS_T4)
+COMB(combo_mute,                     KC_MUTE,                       KCUS_B2,      KCUS_B3,     KCUS_B4)
+
+// Parenthetical Combos
+COMB(combo_greater_than,             KC_GT,                         KPAR_T2,                   KPAR_T3)
+COMB(combo_less_than,                KC_LT,                         KPAR_T3,                   KPAR_T4)
+COMB(combo_tilda,                    S(KC_NUHS),                    KPAR_B2,                   KPAR_B3)
+COMB(combo_grave,                    KC_GRV,                        KPAR_B3,                   KPAR_B4)
+COMB(combo_back_slash,               KC_NUBS,                       KPAR_T2,      KPAR_T3,     KPAR_T4)
+COMB(combo_pipe,                     S(KC_NUBS),                    KPAR_B2,      KPAR_B3,     KPAR_B4)

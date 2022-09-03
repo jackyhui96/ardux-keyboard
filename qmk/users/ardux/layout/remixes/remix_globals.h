@@ -16,3 +16,7 @@
 #define MOUSEKEY_MAX_SPEED      6
 #undef MOUSEKEY_TIME_TO_MAX
 #define MOUSEKEY_TIME_TO_MAX    64
+
+#ifdef KEYBOARD_crkbd_r2g
+#include "../boards/crkbd_rev1.h"
+#endif

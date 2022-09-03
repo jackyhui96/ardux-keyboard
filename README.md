@@ -9,3 +9,13 @@
     * `KC_BSLS -> KC_NUBS`
     * `KC_HASH -> KC_NUHS`
     * `KC_PIPE -> S(KC_NUBS)`
+* built with
+    ```bash
+    rm -rf ../../.build/* && qmk -v compile \
+        -e ARDUX_SIZE=40p \
+        -e ARDUX_HAND=left \
+        -e ARDUX_REMIX=yes \
+        -e RGBLIGHT_ENABLE=yes \
+        -e OLED_ENABLE=no \
+        users/ardux/layout/crkbd_r2g_40p.json
+    ```

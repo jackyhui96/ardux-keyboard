@@ -5,7 +5,7 @@
     "layers": [
         [ "ARDUX_BIG_LAYER_BASE" ],
         [ "ARDUX_40P_LAYER_ANSI" ],
-        [ "ARDUX_40P_LAYER_FUNCTION" ],
+        [ "ARDUX_40P_LAYER_MOUSE" ],
         [ "ARDUX_40P_LAYER_NAVIGATION" ],
         [ "ARDUX_BIG_LAYER_NUM" ],
         [ "ARDUX_BIG_LAYER_SYM" ],
@@ -14,11 +14,8 @@
         [ "ARDUX_BIG_LAYER_CUS" ],
         [ "ARDUX_BIG_LAYER_MSE" ],
         [ "ARDUX_BIG_LAYER_BIG_SYM" ],
-        [ "ARDUX_40P_LAYER_BUTTON" ],
+        [ "ARDUX_BIG_LAYER_BIG_FUN" ],
         [ "ARDUX_40P_LAYER_MEDIA" ],
-        [ "ARDUX_40P_LAYER_SYM" ],
-        [ "ARDUX_40P_LAYER_NUM" ],
-        [ "ARDUX_40P_LAYER_MOUSE" ],
-        [ "ARDUX_BIG_LAYER_BIG_FUN" ]
+        [ "ARDUX_40P_LAYER_BUTTON" ]
     ]
 }
